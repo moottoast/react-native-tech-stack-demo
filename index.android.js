@@ -1,10 +1,4 @@
-import React from 'react';
-import { View } from 'react-native';
+import { AppRegistry } from 'react-native';
+import App from './src/App';
 
-const App = () => {
-  return (
-    <View />
-  );
-};
-
-export default App;
+AppRegistry.registerComponent('tech_stack', () => App);
